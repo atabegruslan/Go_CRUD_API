@@ -1,30 +1,3 @@
-# Install
-
-- Install Go
-- Install Beego framework: `go get github.com/astaxie/beego`
-- Install Bee tool: `go get github.com/beego/bee`
-
-# Create project
-
-`bee new beegoing`
-
-# Run
-
-1. `cd beegoing`
-2. `bee run watchall`
-
-# Tutorials
-
-## Go
-
-https://www.youtube.com/playlist?list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX
-
-## Beego
-
-- https://www.youtube.com/playlist?list=PLw3Nw6TNDAgUBG1Mh6fNacjXcxngYtM48 
-- https://beego.me/docs/quickstart/new.md 
-- https://github.com/astaxie/build-web-application-with-golang
-
 # Scaffolding from DB
 
 ### MySQL
@@ -43,7 +16,7 @@ CREATE TABLE `places` (
 );
 ```
 4. In `~GOPATH/src` directory: `bee api beegoing -conn=username:password@tcp\(127.0.0.1:3306\)/beegoing`
-5. `bee run watchall`
+5. `bee run`
 6. Visit: http://localhost:8082/v1/places
 
 ### PostgreSQL
@@ -61,7 +34,7 @@ CREATE TABLE places (
 );
 ```
 4. In `~GOPATH/src` directory: `bee api beegoing -driver=postgres -conn="user=username password=password host=localhost dbname=beegoing sslmode=disable"`
-5. `bee run watchall`
+5. `bee run`
 6. Visit: http://localhost:8082/v1/places
 
 ## Relevant tutorials
