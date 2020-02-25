@@ -68,3 +68,8 @@ CREATE TABLE places (
 
 - https://beego.me/docs/mvc/model/overview.md
 - https://beego.me/docs/mvc/model/orm.md
+
+# Generate Swagger Documentation
+
+1. `bee run -downdoc=true -gendoc=true`
+2. Visit http://localhost:8082/swagger/
