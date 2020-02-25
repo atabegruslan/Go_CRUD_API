@@ -42,7 +42,7 @@ CREATE TABLE `places` (
 	PRIMARY KEY (id)
 );
 ```
-4. In `~GOPATH/src` directory: `bee api begoing -conn=username:password@tcp\(127.0.0.1:3306\)/beegoing`
+4. In `~GOPATH/src` directory: `bee api beegoing -conn=username:password@tcp\(127.0.0.1:3306\)/beegoing`
 5. `bee run watchall`
 6. Visit: http://localhost:8082/v1/places
 
