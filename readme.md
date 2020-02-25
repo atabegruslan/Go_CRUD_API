@@ -1,3 +1,5 @@
+This is the backend part of https://github.com/atabegruslan/beegoing_front
+
 # Scaffolding from DB
 
 ### MySQL
