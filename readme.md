@@ -1,8 +1,21 @@
 This is the backend part of https://github.com/atabegruslan/beegoing_front
 
+# Tutorials
+
+## Golang
+
+- https://www.youtube.com/playlist?list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX
+- https://www.youtube.com/playlist?list=PLzUGFf4GhXBL4GHXVcMMvzgtO8-WEJIoY
+- https://github.com/atabegruslan/beegoing/tree/master/Illustrations/golang_tutorials/
+
+## Beego
+
+- https://www.youtube.com/playlist?list=PLw3Nw6TNDAgUBG1Mh6fNacjXcxngYtM48
+- https://www.youtube.com/playlist?list=PLF0skeCpyTylvBoDJ5vmh9PCVWYRZ5aOS
+
 # Scaffolding from DB
 
-### MySQL
+## MySQL
 
 1. Install ORM `go get github.com/astaxie/beego/orm`
 2. Install driver `go get github.com/go-sql-driver/mysql`
@@ -21,7 +34,7 @@ CREATE TABLE `places` (
 5. `bee run`
 6. Visit: http://localhost:8082/v1/places
 
-### PostgreSQL
+## PostgreSQL
 
 1. Install ORM `go get github.com/astaxie/beego/orm`
 2. Install driver `go get github.com/lib/pq`
